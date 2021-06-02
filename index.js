@@ -11,11 +11,11 @@ bot.onMessage({
 })
 
 bot.status({
-   text: ";help┃", 
-   type: "STREAMING", 
-   url: "https://www.twitch.tv/tottyblack"
+  text: `En $serverCount servers`, // put any text
+  type: "PLAYING", // LISTENING, PLAYING, WATCHING, COMPETING
+  status: "online", // online, dnd, idle, invisible
+  time: 75 // amount of times where you can change the bot status (if have multiple statuses)
   })
-
 
 
     // FOR STREAMING STATUS USE THIS
