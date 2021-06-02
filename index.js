@@ -11,11 +11,20 @@ bot.onMessage({
 })
 
 bot.status({
-    text: `with $serverCount servers`, // put any text
-    type: "PLAYING", // LISTENING, PLAYING, WATCHING, COMPETING
-    status: "online", // online, dnd, idle, invisible
-    time: 75 // amount of times where you can change the bot status (if have multiple statuses)
-    })
+  text: `.help`,
+  type: "COMPETING",
+  status: "online", 
+  time: 75 
+  })
+  
+bot.status({
+  text: `A tottymusic`, 
+  type: "LISTENING", 
+  status: "online", 
+  time: 75
+  })
+
+
 
     // FOR STREAMING STATUS USE THIS
     // bot.status({
