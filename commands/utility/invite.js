@@ -3,10 +3,10 @@
 module.exports = ({
     name: "invite",
     aliases: ['add'],
-    description: "Invite me to your server!",
+    description: "Invitarme a mi server!",
     usage: "",
     category: "utility",
-    code: `$description[Click [here\\](https://discord.com/oauth2/authorize?client_id=$clientID&scope=bot&permissions=3728207737) to invite me!]
+    code: `$description[Click [Aqui\\](https://discord.com/oauth2/authorize?client_id=$clientID&scope=bot&permissions=3728207737) para invitarme!]
     $color[RANDOM]`
 })
 

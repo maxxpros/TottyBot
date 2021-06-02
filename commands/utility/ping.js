@@ -1,6 +1,6 @@
 module.exports = ({
     name: "ping",
-  description: "Check the bot's ping",
+  description: "Comprueba el ping del bot",
   usage: "",
   aliases: ['pang', 'peng', 'pong', 'pung'],
   category: "utility",
