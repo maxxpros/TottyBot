@@ -3,7 +3,7 @@
 module.exports = ({
     name: "poll",
     aliases: ['survey'],
-    description: "Haz una encuesta! (Solo hasta 10 opciones",
+    description: "Haz una encuesta! (Solo hasta 10 opciones)",
     usage: "poll <preguntas/opcion 1/opcion 2/...>",
     category: "miscellaneous",
     code: `$color[RANDOM]

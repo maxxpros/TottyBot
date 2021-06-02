@@ -1,7 +1,7 @@
 module.exports = ({
     name: "$alwaysExecute",
     code: `
-   $description[Great work <@$authorID>! You leveled up to **$getUserVar[level]**!]
+   $description[<@$authorID>! Subiste de nivel a **$getUserVar[level]**!]
    $color[RANDOM]
    $setUserVar[req;$multi[$getUserVar[req];2]]
    $setUserVar[xp;0]
