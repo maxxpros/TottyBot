@@ -11,17 +11,9 @@ bot.onMessage({
 })
 
 bot.status({
-  text: `.help`,
-  type: "COMPETING",
-  status: "online", 
-  time: 20
-  })
-  
-bot.status({
-  text: `A tottymusic`, 
-  type: "LISTENING", 
-  status: "online", 
-  time: 20
+   text: ";help┃", 
+   type: "STREAMING", 
+   url: "enter url/link"
   })
 
 
