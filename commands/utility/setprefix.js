@@ -8,6 +8,6 @@ module.exports = ({
     $color[RANDOM]
     $setServerVar[prefix;$message]
     $onlyIf[$message[1]!=;{description:Tienes que especificar un mensaje para cambiar el prefijo del servidor!
-    Ejemplo - $getServerVar[prefix]}{color:RANDOM}]
+    Ejemplos - $getServerVar[prefix]}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]`
     })
