@@ -14,14 +14,14 @@ bot.status({
   text: `.help`,
   type: "COMPETING",
   status: "online", 
-  time: 75 
+  time: 20
   })
   
 bot.status({
   text: `A tottymusic`, 
   type: "LISTENING", 
   status: "online", 
-  time: 75
+  time: 20
   })
 
 
