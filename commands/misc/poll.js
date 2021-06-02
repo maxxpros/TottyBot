@@ -7,7 +7,7 @@ module.exports = ({
     usage: "poll <preguntas/opcion 1/opcion 2/...>",
     category: "miscellaneous",
     code: `$color[RANDOM]
-    $author[Made by $userTag;$authorAvatar]
+    $author[Creado por $userTag;$authorAvatar]
     $addField[Opciones; 
 1️⃣ - $replaceText[$replaceText[$checkCondition[$splitText[2]==];false;$splitText[2]];true;None]
 2️⃣ - $replaceText[$replaceText[$checkCondition[$splitText[3]==];false;$splitText[3]];true;None]
