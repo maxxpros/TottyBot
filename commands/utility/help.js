@@ -1,14 +1,14 @@
 module.exports = ({
     name: "help",
     aliases: ['h', 'commands', 'cmds'],
-    description: "Show the list of commands",
+    description: "Mirar la lista de comandos",
     usage: "",
     category: "utility",
     code:
     `
     $thumbnail[$userAvatar[$clientID]]
-    $description[Do \`$getServerVar[prefix]command <command name>\` to show a command's information
-Utility:
+    $description[Usa \`$getServerVar[prefix]command <command name>\` para mostrar la información de un comando
+Utiles:
 \`\`\`
 help
 command
@@ -16,20 +16,20 @@ invite
 ping
 setprefix
 \`\`\`
-Fun:
+Diversion:
 \`\`\`
 meme
 gun
 rip
 \`\`\`
-Leveling:
+Sistema de niveles:
 \`\`\`
 leveling enable/disable (enabled by default)
 levels
 exp
 expcooldown
 \`\`\`
-Economy:
+Economia:
 \`\`\`
 daily
 work
@@ -40,7 +40,7 @@ balance
 leaderboard
 award (Bot Developer only)
 \`\`\`
-Information:
+Informacion:
 \`\`\`
 userinfo
 channelinfo
@@ -49,7 +49,7 @@ serverinfo
 botinfo
 developerinfo
 \`\`\`
-Music:
+Musica:
 \`\`\`
 play
 stop
@@ -64,7 +64,7 @@ loopqueue
 loopsong
 nowplaying
 \`\`\`
-Miscellaneous: 
+Diversos: 
 \`\`\`
 avatar
 membercount
