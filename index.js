@@ -13,7 +13,7 @@ bot.onMessage({
 bot.status({
    text: ";help┃", 
    type: "STREAMING", 
-   url: "enter url/link"
+   url: "https://www.twitch.tv/tottyblack"
   })
 
 
