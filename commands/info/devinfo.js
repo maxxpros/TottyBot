@@ -10,7 +10,7 @@ module.exports = ({
     $author[$userTag[$botOwnerID]]
     $color[RANDOM]
     $thumbnail[$userAvatar[$botOwnerID]]
-    $description[You may contact the developer by clicking this [link\\](https://discordapp.com/users/$botOwnerID)!]
+    $description[Puede ponerse en contacto con el desarrollador haciendo clic en este [link\\](https://discordapp.com/users/$botOwnerID)!]
     $addField[Plataforma; $replaceText[$replaceText[$replaceText[$replaceText[$platform[$botOwnerID];none;None];web;Website];mobile;Phone];desktop;PC]]
     $addField[Estado custom de discord; $replaceText[$replaceText[$checkContains[$getCustomStatus[$botOwnerID;state];none];true;None];false;$getCustomStatus[$botOwnerID;state]]]]
     $addField[Estado; $replaceText[$replaceText[$replaceText[$replaceText[$status[$botOwnerID];offline;Offline];online;Online];dnd;Do not disturb];idle;Idle]]
