@@ -1,8 +1,8 @@
 module.exports = ({
     name: "roulette",
     aliases: ['rl'],
-    description: "Play the roulette.",
-    usage: "roulette <amount> <red/black>",
+    description: "Jugar a la ruleta",
+    usage: "roulette <Cuanto> <red/black>",
     category: "economy",
     code: `$color[RANDOM]
    $title[__Roulette Game__]
@@ -11,11 +11,11 @@ module.exports = ({
    
    $description[Your choice: **$replaceText[$replaceText[$toLowercase[$message[2]];red;red (🔴)];black;black (⚫)]**.
 Testing your luck, please wait...]
-   $editIn[5s;{color:RANDOM}{description: The ball landed on __**$randomText[red;black]**__!
+   $editIn[5s;{color:RANDOM}{description: La pelota se para en el __**$randomText[red;black]**__!
    
-   $replaceText[$replaceText[$checkCondition[$toLowercase[$message[2]]==$randomText[red;black]];true;You won **$message[1]**💴!];false;You lost **$message[1]**💴.] 
+   $replaceText[$replaceText[$checkCondition[$toLowercase[$message[2]]==$randomText[red;black]];true;Tu ganaste **$message[1]**💴!];false;Tu perdiste **$message[1]**💴.] 
    
-   Now you have: **$sum[$getGlobalUserVar[money];$replaceText[$replaceText[$checkCondition[$toLowercase[$message[2]]==$randomText[red;black]];true;$message[1]];false;-$message[1]]]**💴.}]
+   Ahora tenes: **$sum[$getGlobalUserVar[money];$replaceText[$replaceText[$checkCondition[$toLowercase[$message[2]]==$randomText[red;black]];true;$message[1]];false;-$message[1]]]**💴.}]
    $addTimestamp
    $onlyIf[$getGlobalUserVar[money]>=$message[1];{description:description:You can't bet more than what you have!}{color:RANDOM}]
    $onlyIf[$isNumber[$message[1]]==true;{description: Argument must be a number!}{color:RANDOM}]

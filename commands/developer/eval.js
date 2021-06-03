@@ -1,7 +1,7 @@
 module.exports = ({
     name: "eval",
     aliases: ['e'],
-    description: "Evaluate a code/function",
+    description: "Evaluar un código / función",
     usage: "eval <code/function>",
     category: "developer",
     code: `$eval[$message]

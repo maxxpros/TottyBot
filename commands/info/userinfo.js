@@ -19,7 +19,7 @@ module.exports = ({
     $addField[Creacion; $creationDate[$findMember[$message]];yes]
     $addField[Fecha de Ingreso; $memberJoinedDate[$findMember[$message]];yes]
     $addTimestamp
-    $footer[Requested by $userTag;$authorAvatar]
+    $footer[Pedido por $userTag;$authorAvatar]
     $cooldown[5s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]
     `

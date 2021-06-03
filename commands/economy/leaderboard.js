@@ -1,10 +1,10 @@
 module.exports = ({
     name: "leaderboard",
     aliases: ['lb'],
-    description: "Check the money leaderboard",
+    description: "Consulta la tabla de clasificación de dinero",
     usage: "",
     category: "economy",
-    code: `$title[Money Leaderboard]
+    code: `$title[Clasificacion de dinero]
     $color[RANDOM]
     $description[$globalUserLeaderBoard[money;asc; {top}. {username} - {value}💴]]
     $cooldown[5s;{description:A bit too fast there. Wait for **time%**!}{color:RANDOM}]

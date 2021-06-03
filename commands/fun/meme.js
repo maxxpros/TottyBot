@@ -3,7 +3,7 @@
 module.exports = ({
     name: "meme",
     category: "fun",
-    description: "Shows a random meme from Reddit",
+    description: "Muestra un meme aleatorio de Reddit",
     usage: "", 
     code: `$djseval[(async()=>{
    channel.startTyping()
