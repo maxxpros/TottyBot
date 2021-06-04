@@ -18,6 +18,7 @@ setprefix
 \`\`\`
 Diversion:
 \`\`\`
+lindometro
 8ball
 meme
 gun
