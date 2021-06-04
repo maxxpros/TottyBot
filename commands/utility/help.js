@@ -18,6 +18,7 @@ setprefix
 \`\`\`
 Diversion:
 \`\`\`
+8ball
 meme
 gun
 rip
