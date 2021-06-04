@@ -10,10 +10,10 @@ module.exports = ({
     $description[Usa \`$getServerVar[prefix]command <command name>\` para mostrar la información de un comando
 Utiles:
 \`\`\`
-pagina
-help
 command
+help
 invite
+pagina
 ping
 setprefix
 \`\`\`
