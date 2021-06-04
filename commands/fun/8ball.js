@@ -6,7 +6,6 @@ module.exports = ({
     code: `$color[RANDOM]
     $author[$userTag[$findMember[$messageSlice[1]]];$userAvatar[$findMember[$messageSlice[1]]]]
     $description[<@$authorID> Pregunto $message[1] $random[Si;No;TalVez;Claro;Imposible]!]
-    $onlyIf[$message=;{description: Tienes que especificar la pregunta!}{color:RANDOM}]
     $onlyIf[$checkContains[$channelType;text;news]==true;]
     $suppressErrors[{description: Haci se usa: $getServerVar[prefix]8ball <pregunta>}{color:RANDOM}]
     `
