@@ -18,11 +18,14 @@ setprefix
 \`\`\`
 Diversion:
 \`\`\`
-lindometro
 8ball
-meme
+amor
 gun
+jail
+lindometro
+meme
 rip
+stonks
 \`\`\`
 Sistema de niveles:
 \`\`\`
