@@ -1,10 +1,10 @@
 module.exports = ({
-    name: "jail",
+    name: "anime",
     category: "fun",
-    description: "Carcel",
-    usage: "jail (user)",
+    description: "Poner modo anime a alguien",
+    usage: "anime (user)",
     code: `
-    $image[https://api.tomio.codes/api/jail?url=$replaceText[$userAvatar[$findUser[$message]];webp;png]]
+    $image[https://api.tomio.codes/api/anime?url=$replaceText[$userAvatar[$findUser[$message]];webp;png]]
     $color[RANDOM]
     $addTimestamp
     $cooldown[3s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
