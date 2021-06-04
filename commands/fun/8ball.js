@@ -1,7 +1,7 @@
 module.exports = ({
     name: "8ball",
     description: "Una pregunta al bot!",
-    usage: "",
+    usage: "8ball <pregunta>",
     category: "fun",
     code: `$color[RANDOM]
     $description[<@$findMember[$message]> Pregunto $message es verdad? $randomText[Si;No;TalVez;Nose;Imposible;Nunca;Claro]!]
