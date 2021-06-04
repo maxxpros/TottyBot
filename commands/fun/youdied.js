@@ -1,10 +1,10 @@
 module.exports = ({
-    name: "youdied",
+    name: "stonks",
     category: "fun",
-    description: "youdied",
-    usage: "youdied (user)",
+    description: "STONKS",
+    usage: "stonks (user)",
     code: `
-    $image[https://api.tomio.codes/api/you-died?url=$replaceText[$userAvatar[$findUser[$message]];webp;png]]
+    $image[https://api.tomio.codes/api/stonks?url=$replaceText[$userAvatar[$findUser[$message]];webp;png]]
     $color[RANDOM]
     $addTimestamp
     $cooldown[3s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
