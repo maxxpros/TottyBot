@@ -1,11 +1,11 @@
 module.exports = ({
     name: "volume",
     aliases: ['vol', 'v'],
-    description: "Change the music volume",
+    description: "Cambiar el volumen de la música",
     category: "music",
-    usage: "volume <number>",
+    usage: "volume <numero>",
     code: `$color[RANDOM]
-    $description[🔊 Change the Volume to "$message".]
+    $description[🔊 Cambiaste el volumen a "$message".]
     $volume[$message]
     $onlyIf[$voiceID==$voiceID[$clientID];{color:RANDOM}{description:You must be in the same Voice Channel as the Bot!} {field:Bot's Voice Channel:<#$voiceID[$clientID]>} {field:User Voice Channel:<#$voiceID>}] 
     $onlyIf[$queueLength>0;{description:The queue is empty!}{color:RANDOM}]

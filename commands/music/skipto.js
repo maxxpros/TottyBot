@@ -1,11 +1,11 @@
 module.exports = ({
     name: "skipto",
     aliases: ['skt'],
-    description: "Skip to a different song in the queue",
+    description: "Saltar a una canción diferente en la cola",
     usage: "skipto <number>",
     category: "music",
     code: `$color[RANDOM]
-    $description[⏩ Skipped the song to queue number "$message"!]
+    $description[⏩ Se saltó la canción al número de la cola "$message"!]
     $skipTo[$message]
     $onlyIf[$voiceID!=;{color:RANDOM}{description:You must be in a Voice Channel!}]
     $onlyIf[$queueLength>0;{color:RANDOM}{description:The queue is empty!}]

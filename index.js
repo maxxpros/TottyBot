@@ -30,7 +30,7 @@ bot.status({
 
     bot.musicStartCommand({
       channel: "$channelID",
-      code: `$sendMessage[{description:▶ Now playing - **[$songInfo[title]\\]($songInfo[url])**}{color:RANDOM}{thumbnail:$songInfo[thumbnail]}{timestamp:ms};no]`
+      code: `$sendMessage[{description:▶ Escuchando ahora - **[$songInfo[title]\\]($songInfo[url])**}{color:RANDOM}{thumbnail:$songInfo[thumbnail]}{timestamp:ms};no]`
       })
 
 // for dbd.js latest version
@@ -44,7 +44,7 @@ bot.status({
 
       bot.musicEndCommand({
         channel: "$channelID",
-        code: `$sendMessage[{description:⏹ There's no one playing music anymore. I'm leaving the Voice Channel!}{color:RANDOM}{delete:10s};no]`
+        code: `$sendMessage[{description:⏹ Ya no hay nadie tocando música. Me voy del canal de voz!}{color:RANDOM}{delete:10s};no]`
         })
 
     bot.variables(require('./commands/vars.js'))

@@ -1,12 +1,12 @@
 module.exports = ({
     name: "lyrics",
     aliases: ['ly', 'l'],
-    description: "Get lyrics from the current playing or a specific song",
+    description: "Obtener la letra de la reproducción actual o de una canción específica",
     usage: "lyrics (song)",
     category: "music",
     code: `$color[RANDOM]
     $if[$argsCount>0]
-    $title[Lyrics for $message]
+    $title[Lyrics de $message]
     $description[$jsonRequest[https://some-random-api.ml/lyrics?title=$replaceText[$message; ;+];lyrics;{description: No lyrics found for this song!}{color:RANDOM}]]
     $elseIf[$argsCount==0]
     $title[Lyrics for $songInfo[title]]

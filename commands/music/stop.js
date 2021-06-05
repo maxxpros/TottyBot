@@ -1,11 +1,11 @@
 module.exports = ({
     name: "stop",
     aliases: ['st'],
-    description: "Stops the current playing song",
+    description: "Detiene la canción que se está reproduciendo actualmente",
     usage: "",
     category: "music",
     code: `$color[RANDOM]
-    $description[⏹ Stopped the song!]
+    $description[⏹ Detuviste la canción!]
     $stopSong
     $onlyIf[$voiceID!=;{color:RANDOM}{description:You must be in a Voice Channel!}]
     $onlyIf[$queueLength>0;{color:RANDOM}{description:The queue is empty!}]

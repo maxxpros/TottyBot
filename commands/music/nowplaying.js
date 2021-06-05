@@ -1,11 +1,11 @@
 module.exports = ({
     name: "nowplaying",
     aliases: ['np'],
-    description: "See the current playing song",
+    description: "Ver la canción que se está reproduciendo actualmente",
     usage: "",
     category: "music",
     code: `$color[RANDOM]
-    $description[⏯ Current playing song - **[$songInfo[title]\\]($songInfo[url])**]
+    $description[⏯ Canción que se está reproduciendo actualmente - **[$songInfo[title]\\]($songInfo[url])**]
     $thumbnail[$songinfo[thumbnail]]
     $addTimestamp
     $onlyIf[$queueLength>0;{color:RANDOM}{description:The queue is empty!}]
