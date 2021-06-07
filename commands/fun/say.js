@@ -4,5 +4,6 @@ module.exports = ({
     usage: "say <Mensaje>",
     category: "fun",
     code: `$message
-    $deletecommand`
+    $deletecommand
+    $onlyIf[$message!=;{description: Tienes que especificar un mensaje para que diga!}{color:RANDOM}]`
 })

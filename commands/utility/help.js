@@ -26,6 +26,7 @@ jail
 lindometro
 meme
 rip
+say
 stonks
 \`\`\`
 Sistema de niveles:
