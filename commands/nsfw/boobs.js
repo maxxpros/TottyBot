@@ -12,6 +12,5 @@ module.exports = ({
 
     $color[RANDOM]
     $image[boobs]
-    $cooldown[3s;{description:Un poco demasiado rápido allí. Esperar **%time%**!}{color:RANDOM}]
    $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
