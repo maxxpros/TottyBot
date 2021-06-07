@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/baeriri/multipurpose-bot#readme",
   "dependencies": {
+    "aki-api": "^5.2.1",
     "dbd.db": "^1.4.5",
     "dbd.express": "^1.0.1",
     "dbd.js": "^2.2.6",
