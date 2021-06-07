@@ -3,5 +3,6 @@ module.exports = ({
     description: "Un mensaje que quieres que diga!",
     usage: "say <Mensaje>",
     category: "fun",
-    code: `$message`
+    code: `$message
+    $deletecommand`
 })
