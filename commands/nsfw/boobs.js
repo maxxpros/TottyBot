@@ -6,6 +6,7 @@ module.exports = ({
     code: `$djseval[(async()=>{
    channel.startTyping()
    const Discord = require("discord.js");
+   const fetch = require('node-fetch')
    const NSFW = require("discord-nsfw");
    const nsfw = new NSFW();
    
