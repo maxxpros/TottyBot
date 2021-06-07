@@ -6,5 +6,6 @@ module.exports = ({
     category: "utility",
     code: `
     $description[(https://dinosaur.ml/covid19/country/?country=$message)]
-    $color[RANDOM]`
+    $color[RANDOM]
+    $onlyIf[$checkContains[$channelType;text;news]==true;]`
 })
