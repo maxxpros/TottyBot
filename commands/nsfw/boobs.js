@@ -3,8 +3,7 @@ module.exports = ({
     category: "fun",
     description: "Muestra un meme aleatorio de Reddit",
     usage: "", 
-    code: `$djseval[(async()=>{
-   channel.startTyping()
+    code: `
    const Discord = require("discord.js");
    const fetch = require('node-fetch')
    const NSFW = require("discord-nsfw");
@@ -16,8 +15,6 @@ module.exports = ({
    .setColor('RANDOM')
    .setImage(image)
    message.channel.send(embed)
-   channel.stopTyping()
-   })()]
    $cooldown[3s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
    $onlyIf[$checkContains[$channelType;text;news]==true;]`
    })  
