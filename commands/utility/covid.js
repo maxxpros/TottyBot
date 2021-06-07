@@ -5,6 +5,6 @@ module.exports = ({
     usage: "",
     category: "utility",
     code: `
-    $description[dinosaur.ml/covid19/country/?country=$message]
+    $description[(https://dinosaur.ml/covid19/country/?country=$message)]
     $color[RANDOM]`
 })
