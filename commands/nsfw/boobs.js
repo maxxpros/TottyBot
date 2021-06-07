@@ -5,7 +5,7 @@ module.exports = ({
     description: "Sostener un arma",
     usage: "gun (user)",
     code: `
-    $image[https://api.tomio.codes/api/boobs?url=$replaceText[$userAvatar[$findUser[$message]];webp;png]]
+    $image[https://api.tomio.codes/api/ass]
     $color[RANDOM]
     $addTimestamp
     $cooldown[3s;{description:A bit too fast there. Wait for **%time%**!}{color:RANDOM}]
