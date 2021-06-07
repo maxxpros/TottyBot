@@ -1,5 +1,5 @@
 module.exports = ({
-    name: "rip",
+    name: "boobs",
     aliases: ['dead'],
     usage: "rip (user)",
     description: "⚰",
